@@ -1,0 +1,45 @@
+
+.imgk {
+    margin-top: 100px;
+    width: 1600px;
+    height: 600px;
+    background-size: cover;
+  }
+  .awssld {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 1000px !important;
+    margin-bottom: -624px;
+    z-index: 0;
+  }
+  .awssld__container figure, .awssld__content, .awssld__box{
+    height: 60% !important;
+  }
+  .awssld__controls button {
+  
+    top: calc(30% - (0.5 * var(--control-button-height))) !important;}
+    .awssld__content {
+      background-color: #edeeed;
+    }
+    .awssld__controls button{
+      background: transparent !important;
+    }
+    
+  .bottom-container,
+  .top-container {
+    width: 15vw;
+      height: 35vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 43vh;
+      font-size: 25px;
+      left: 45vw;
+      padding: 1vw;
+  
+  }
+  
+

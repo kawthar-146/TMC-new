@@ -1,0 +1,23 @@
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  background: #1e28b1;
+  
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+  .containerpp {
+    background:#edeef2;
+  }
+
+  @media only screen and (max-width: 540px) {
+    .player-wrapper {
+      position: relative;
+      padding-top: 66.25%;
+      /* background: transparent;
+      margin-top: -121px;} */}
+  }

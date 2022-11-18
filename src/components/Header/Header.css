@@ -1,0 +1,21 @@
+
+
+@media only screen and (max-width: 540px) {
+    .koko22{
+        margin-top:-70px
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .koko22{
+        margin-top:-60px
+    }
+  }
+
+
+  @media only screen and (max-width: 370px) {
+    .koko22{
+        margin-top:-60px
+    }
+  }
+
