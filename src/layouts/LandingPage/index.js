@@ -12,7 +12,7 @@ const LandingPageLayout = ({ heading, ...otherProps }) => {
   return (
     <>
 
-<section class="kokoko3 bg-cover col-span-12 relative md:h-[calc(780px+5vw)] ">
+<section class="kokoko3 min-h-screen bg-cover bg-no-repeat bg-bottom bg-fixed col-span-12 relative md:h-[calc(780px+5vw)] ">
     
 
     <div class="absolute inset-0 px-5 flex items-center h-full w-full justify-center flex-col">
