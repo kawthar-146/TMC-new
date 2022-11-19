@@ -3,8 +3,6 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
-import { MdConstruction } from "react-icons/md";
-import { CgUserlane} from "react-icons/cg";
 import img1  from "../../assets/page 14 LM LEMECO S.A.L - Saida (7).JPG";
  import img2 from "../../assets/page 19 HAREB ELECTRIC- BABLIEH (7).JPG";
  import img3 from "../../assets/page 27 مركز حجر صحي في مطار بيروت (4).JPG";

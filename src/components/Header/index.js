@@ -11,7 +11,7 @@ const Navbar = ({
   
     return (
       <>
-        {/* This example requires Tailwind CSS v2.0+ */}
+      
         <div className="koko22 relative bg-white">
           <div className="max-w-200xl mx-auto px-4 sm:px-6 z-0">
             <div className="flex justify-between items-center border-b-2 border-gray-100 py-10 md:justify-start md:space-x-10">
@@ -65,7 +65,6 @@ const Navbar = ({
                   About Us
                 </Link>
                 <div className="relative">
-                  {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
                   <button
                     type="button"
                     className="
@@ -74,11 +73,7 @@ const Navbar = ({
                     onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
                   >
                     <span>Projects</span>
-                    {/*
-                Heroicon name: solid/chevron-down
-  
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-              */}
+                 
                     <svg
                       className={
                         flyer === true
@@ -201,8 +196,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/view-grid */}
-                          <svg
+                               <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -231,7 +225,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/refresh */}
+                          
                           <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
@@ -261,7 +255,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/refresh */}
+                        
                           <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
@@ -291,7 +285,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/refresh */}
+                         
                           <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +315,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/refresh */}
+                         
                           <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
@@ -351,7 +345,7 @@ const Navbar = ({
                           href="#"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          {/* Heroicon name: outline/refresh */}
+                    
                           <svg
                             className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
@@ -397,18 +391,14 @@ const Navbar = ({
                   Products
                 </Link>
                 <div className="relative">
-                  {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
+
                   <button
                     type="button"
                     className="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     onClick={() => (setFlyerTwo(!flyerTwo), setFlyer(false))}
                   >
                     <span>More</span>
-                    {/*
-                Heroicon name: solid/chevron-down
-  
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-              */}
+              
                     <svg
                       className={
                         flyerTwo === true
@@ -427,16 +417,7 @@ const Navbar = ({
                       />
                     </svg>
                   </button>
-                  {/*
-              'More' flyout menu, show/hide based on flyout menu state.
-  
-              Entering: "transition ease-out duration-200"
-                From: "opacity-0 translate-y-1"
-                To: "opacity-100 translate-y-0"
-              Leaving: "transition ease-in duration-150"
-                From: "opacity-100 translate-y-0"
-                To: "opacity-0 translate-y-1"
-            */}{" "}
+         
                   <div
                     onMouseLeave={() => setFlyerTwo(false)}
                     className={
@@ -759,44 +740,7 @@ const Navbar = ({
                   >
                     Events
                   </Link>
-                  {/* <Link
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                   Playgrounds
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Help Center
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Guides
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Security
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Events
-                  </Link>
-                </div>
-                <div>
-                  <Link
-                    href="#"
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
-                    Sign up
-                  </Link> */}
+                
                 
                 </div>
               </div>

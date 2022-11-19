@@ -13,7 +13,7 @@ const LandingPageLayout = ({ heading, ...otherProps }) => {
     <>
 
 <section class="kokoko3 bg-cover col-span-12 relative md:h-[calc(780px+5vw)] ">
-    {/* <img src={img1} class="bg-fixed" /> */}
+    
 
     <div class="absolute inset-0 px-5 flex items-center h-full w-full justify-center flex-col">
       <span class="w-40 h-0.5 bg-white block mb-7"></span>

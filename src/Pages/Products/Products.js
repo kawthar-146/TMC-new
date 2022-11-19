@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import "./Products.css";
-// import img1 from "../../assets/Misia Hoist catalogue HD-10"
 const Products = () => {
   return (
     <>

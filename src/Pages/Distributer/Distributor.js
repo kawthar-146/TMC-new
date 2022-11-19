@@ -1,7 +1,6 @@
 import React from 'react'
 import img1 from "../../assets/Screenshot (80).png"
 import "./distributor.css";
-import axios from "axios";
 import { useState } from "react";
 import Footer from '../../components/Footer';
 const Distributor = () => {
@@ -14,50 +13,8 @@ const Distributor = () => {
       file: ""
     });
     
-  const handleFileChange = () => (e) => {
-    setQuery((prevState) => ({
-      ...prevState,
-      files: e.target.files[0]
-    }));
-  };
+ 
 
-  const handleChange = () => (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setQuery((prevState) => ({
-      ...prevState,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (loading) return;
-    setLoading(true);
-    const formData = new FormData();
-    Object.entries(query).forEach(([key, value]) => {
-      formData.append(key, value);
-    });
-
-    axios
-      .post(
-        "",
-        formData,
-        { headers: { Accept: "application/json" } }
-      )
-      .then(function (response) {
-        setFormStatus(true);
-        setQuery({
-          name: "",
-          email: ""
-        });
-        setLoading(false);
-      })
-      .catch(function (error) {
-        console.log(error);
-        setLoading(false);
-      });
-  };
   return (
     <>
       

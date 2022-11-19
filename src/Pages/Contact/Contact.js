@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Contact.css"
-import img1 from "../../assets/129147504_1965381133603537_7717037664229600948_n.jpg";
 import Footer from '../../components/Footer';
 const Contact = () => {
   return (
@@ -9,7 +8,7 @@ const Contact = () => {
     <div class="kokobg bg-fixed absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12 text-white text-center"></div>
 
   </div>
-   {/* <img src={img1}/> */}
+   
 <form id="contact-stack-form" class="form">
     
 	<div class="cube-1 w-100 cube">

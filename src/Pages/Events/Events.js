@@ -1,17 +1,9 @@
 import React, { useState } from "react";
 import "./Events.css";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from "swiper";
 import img1 from "../../assets/IMG_1326.jpg"
 import img2 from "../../assets/pp8.jpg"
 import img3 from "../../assets/pp10.jpg"
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+
 import Footer from "../../components/Footer";
 const Events = () => {
   const [active,setActive] = useState(null)
