@@ -24,7 +24,7 @@ const Navbar = ({
                     alt=""
                   />
                 </Link>
-                <p className='font-mono ml-5 mt-3 text-sm  sm:text-xs '>Techno metal constraction</p>
+                <p className='font-mono ml-5 mt-3 text-sm  sm:text-xs '>Techno metal construction</p>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
                 <button
