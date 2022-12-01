@@ -154,7 +154,7 @@ const LandingPageLayout = ({ heading, ...otherProps }) => {
   <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div class="mb-12 space-y-2 text-center">
         <span class="block w-max mx-auto px-3 py-1.5 border border-bg_white rounded-full bg-btn_color text-bg_white">TMC</span>
-        <h2 class="text-2xl text-blue-900 font-bold md:text-4xl">Constraction is TECHNIQUE MÉTAL CONSTRUCTION </h2>
+        <h2 class="text-2xl text-blue-900 font-bold md:text-4xl">CONSTRUCTION is TECHNIQUE MÉTAL CONSTRUCTION </h2>
         <p class="lg:w-6/12 lg:mx-auto">We are looking forward to be your reliable supplier of structural steel for your projects and we assure you of
 The best quality always
 </p>
