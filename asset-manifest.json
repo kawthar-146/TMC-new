@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/TMC-new/static/css/main.ead80401.css",
-    "main.js": "/TMC-new/static/js/main.c0084ad4.js",
+    "main.css": "/TMC-new/static/css/main.094d5aec.css",
+    "main.js": "/TMC-new/static/js/main.6c8be9fe.js",
     "static/js/787.9fd36ce7.chunk.js": "/TMC-new/static/js/787.9fd36ce7.chunk.js",
     "static/media/Techno Metal Construction.mp4": "/TMC-new/static/media/Techno Metal Construction.56715302253616b1eca3.mp4",
     "static/media/home1.JPG": "/TMC-new/static/media/home1.c08fd86244306699153d.JPG",
     "static/media/page 10 Ghaddar Machinery Co. SAL- Ghazieh  (6).JPG": "/TMC-new/static/media/page 10 Ghaddar Machinery Co. SAL- Ghazieh  (6).3a2ee33ca7ea3cca05ec.JPG",
     "static/media/p.JPG": "/TMC-new/static/media/p.af2af319df5c79e60e36.JPG",
+    "static/media/20171005_133410.JPG": "/TMC-new/static/media/20171005_133410.1272929de9661f46257c.JPG",
     "static/media/page 17  Matar Fruits- Bekaa (3).JPG": "/TMC-new/static/media/page 17  Matar Fruits- Bekaa (3).ca087bd1c5dce69eeeba.JPG",
     "static/media/page 16 Hassanein Co (6).JPG": "/TMC-new/static/media/page 16 Hassanein Co (6).f009881dcd985812cabe.JPG",
     "static/media/page 69 4B SPORTING CLUB- saida (3).JPG": "/TMC-new/static/media/page 69 4B SPORTING CLUB- saida (3).ad8f773d840d69403cea.JPG",
@@ -14,6 +15,7 @@
     "static/media/IMG_1326.jpg": "/TMC-new/static/media/IMG_1326.de279ad95e79fe40a957.jpg",
     "static/media/page 19 G.E.M.E CO. - kfarhatta (3).JPG": "/TMC-new/static/media/page 19 G.E.M.E CO. - kfarhatta (3).b0584dc3fb02882fcafb.JPG",
     "static/media/Screenshot (80).png": "/TMC-new/static/media/Screenshot (80).7cfac792b6de9ea0f136.png",
+    "static/media/IMG_3012.JPG": "/TMC-new/static/media/IMG_3012.d589c11338956a9a56df.JPG",
     "static/media/page 62 GIFCO - JIEH (3).JPG": "/TMC-new/static/media/page 62 GIFCO - JIEH (3).4de2f4c7b238dca682be.JPG",
     "static/media/page 19 HAREB ELECTRIC- BABLIEH (7).JPG": "/TMC-new/static/media/page 19 HAREB ELECTRIC- BABLIEH (7).eb6831b59f8a53f06600.JPG",
     "static/media/page 13 AL-SHARQ - Chowaifat.JPG": "/TMC-new/static/media/page 13 AL-SHARQ - Chowaifat.8d596a34f74d1bab453b.JPG",
@@ -28,8 +30,11 @@
     "static/media/pp7.JPG": "/TMC-new/static/media/pp7.9e339f836c542b8ae68d.JPG",
     "static/media/page 18 MADCO- Bablieh (7).JPG": "/TMC-new/static/media/page 18 MADCO- Bablieh (7).2757249f76ab7218f2d6.JPG",
     "static/media/page 9 Ghaddar Machinery Co. SAL- Ghazieh (4).JPG": "/TMC-new/static/media/page 9 Ghaddar Machinery Co. SAL- Ghazieh (4).8c87fcc599f83e84c517.JPG",
+    "static/media/Slide4 (8).JPG": "/TMC-new/static/media/Slide4 (8).1d55d4a0e912eb374dad.JPG",
     "static/media/Slide5 (3).JPG": "/TMC-new/static/media/Slide5 (3).2025be853a758ebba825.JPG",
+    "static/media/IMG_1052.JPG": "/TMC-new/static/media/IMG_1052.f2cada15c1d88268a695.JPG",
     "static/media/pp2.jpg": "/TMC-new/static/media/pp2.19a2a06a9af07c9f074b.jpg",
+    "static/media/project.jpg": "/TMC-new/static/media/project.f9f80e2a3f25b9f8f05d.jpg",
     "static/media/pp3.jpg": "/TMC-new/static/media/pp3.fc644e8cd236f496d505.jpg",
     "static/media/pp4.jpg": "/TMC-new/static/media/pp4.40577b88adb30dd1bceb.jpg",
     "static/media/pp5.jpg": "/TMC-new/static/media/pp5.3f9195597d9a96dd2b60.jpg",
@@ -41,12 +46,12 @@
     "static/media/blue logo ..jpg": "/TMC-new/static/media/blue logo ..d2f7ed5b70b6658998e3.jpg",
     "static/media/360_F_305718377_AE5MJ16NzAFCrTcqEl1fYtofYlfqoUlp-removebg-preview.png": "/TMC-new/static/media/360_F_305718377_AE5MJ16NzAFCrTcqEl1fYtofYlfqoUlp-removebg-preview.e98e34a9fa06f25f3a89.png",
     "index.html": "/TMC-new/index.html",
-    "main.ead80401.css.map": "/TMC-new/static/css/main.ead80401.css.map",
-    "main.c0084ad4.js.map": "/TMC-new/static/js/main.c0084ad4.js.map",
+    "main.094d5aec.css.map": "/TMC-new/static/css/main.094d5aec.css.map",
+    "main.6c8be9fe.js.map": "/TMC-new/static/js/main.6c8be9fe.js.map",
     "787.9fd36ce7.chunk.js.map": "/TMC-new/static/js/787.9fd36ce7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ead80401.css",
-    "static/js/main.c0084ad4.js"
+    "static/css/main.094d5aec.css",
+    "static/js/main.6c8be9fe.js"
   ]
 }
