@@ -24,7 +24,7 @@ const LandingPageLayout = ({ heading, ...otherProps }) => {
     </div>
   </section> */}
   <Slidertrans/>
-  <section class="text-gray-700 body-font lg:mt-56  sm:mt-56">
+  <section class="sec2 text-gray-700 body-font lg:mt-56 md:mt-56 sm:mt-96">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
