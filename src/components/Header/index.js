@@ -19,7 +19,7 @@ const Navbar = ({
                 <Link to="/">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-52 ml-5 sm:h-10 animate-[wave_5s_ease-in-out_100]"
+                    className="h-32 w-36  ml-12 sm:h-10 animate-[wave_5s_ease-in-out_100]"
                     src={img1}
                     alt=""
                   />
