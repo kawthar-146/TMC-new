@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TMC-new/static/css/main.e551e437.css",
-    "main.js": "/TMC-new/static/js/main.ad974a6a.js",
+    "main.css": "/TMC-new/static/css/main.3750e00f.css",
+    "main.js": "/TMC-new/static/js/main.1663540d.js",
     "static/js/787.9fd36ce7.chunk.js": "/TMC-new/static/js/787.9fd36ce7.chunk.js",
     "static/media/Techno Metal Construction.mp4": "/TMC-new/static/media/Techno Metal Construction.56715302253616b1eca3.mp4",
     "static/media/home1.JPG": "/TMC-new/static/media/home1.c08fd86244306699153d.JPG",
@@ -46,12 +46,12 @@
     "static/media/blue logo ..jpg": "/TMC-new/static/media/blue logo ..d2f7ed5b70b6658998e3.jpg",
     "static/media/360_F_305718377_AE5MJ16NzAFCrTcqEl1fYtofYlfqoUlp-removebg-preview.png": "/TMC-new/static/media/360_F_305718377_AE5MJ16NzAFCrTcqEl1fYtofYlfqoUlp-removebg-preview.e98e34a9fa06f25f3a89.png",
     "index.html": "/TMC-new/index.html",
-    "main.e551e437.css.map": "/TMC-new/static/css/main.e551e437.css.map",
-    "main.ad974a6a.js.map": "/TMC-new/static/js/main.ad974a6a.js.map",
+    "main.3750e00f.css.map": "/TMC-new/static/css/main.3750e00f.css.map",
+    "main.1663540d.js.map": "/TMC-new/static/js/main.1663540d.js.map",
     "787.9fd36ce7.chunk.js.map": "/TMC-new/static/js/787.9fd36ce7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e551e437.css",
-    "static/js/main.ad974a6a.js"
+    "static/css/main.3750e00f.css",
+    "static/js/main.1663540d.js"
   ]
 }
