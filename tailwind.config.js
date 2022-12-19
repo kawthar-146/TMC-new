@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         dark_purple:"#172d8e24",
+        logo_color:"#123772",
         btn_primary:"#7e7ee3",
         heading_color:"#abd9d9",
         bg_white:"#ffffff",

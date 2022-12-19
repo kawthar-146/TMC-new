@@ -15,16 +15,17 @@ const Navbar = ({
         <div className="koko22 relative bg-white">
           <div className="max-w-200xl mx-auto px-4 sm:px-6 z-0">
             <div className="flex justify-between items-center border-b-2 border-gray-100 py-10 md:justify-start md:space-x-10">
-              <div className="flex justify-center lg:w-0 lg:flex-1">
+              <div className="flex justify-end ml-8 lg:w-0 lg:flex-1">
                 <Link to="/">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-auto sm:h-10 animate-[wave_5s_ease-in-out_100]"
+                    className="h-8 w-52 ml-5 sm:h-10 animate-[wave_5s_ease-in-out_100]"
                     src={img1}
                     alt=""
                   />
+                   <p className='font-sans animate-text bg-gradient-to-r from-[#123772] via-[#f5ca00] to-[#123772] bg-clip-text text-transparent font-black lg:text-lg  mt-3 md:text-sm sm:text-xs '>Techno metal construction</p>
                 </Link>
-                <p className='font-mono ml-5 mt-3 text-sm  sm:text-xs '>Techno metal construction</p>
+                {/* <p className='font-mono ml-5 mt-3 text-sm  sm:text-xs '>Techno metal construction</p> */}
               </div>
               <div className="-mr-2 -my-2 md:hidden">
                 <button
@@ -51,24 +52,36 @@ const Navbar = ({
                   </svg>
                 </button>
               </div>
-              <nav className="hidden md:flex space-x-10">
+              <nav className="hidden  md:flex space-x-10">
               <Link
                   to="/"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
+                  className="text-base ml-14 hover:text-[#f8cd00] lg:text-lg  mt-3 md:text-sm sm:text-xs font-sans font-medium text-[#061137] "
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
+                  className="text-base hover:text-[#f8cd00] lg:text-lg  mt-3 md:text-sm sm:text-xs font-sans font-medium text-[#061137]"
                 >
                   About Us
+                </Link>
+                <Link
+                  to="/products"
+                  className="text-base hover:text-[#f8cd00] lg:text-lg  mt-3 md:text-sm sm:text-xs font-sans font-medium text-[#061137] "
+                >
+                  Products
+                </Link>
+                <Link
+                  to="/services"
+                  className="text-base hover:text-[#f8cd00] lg:text-lg  mt-3 md:text-sm sm:text-xs font-sans font-medium text-[#061137] "
+                >
+                  Services
                 </Link>
                 <div className="relative">
                   <button
                     type="button"
                     className="
-                     group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-8'
+                    lg:text-lg hover:text-[#f8cd00]  mt-3 md:text-sm sm:text-xs bg-white rounded-md font-sans text-[#061137] inline-flex items-center text-base font-medium  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-8'
                     "
                     onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
                   >
@@ -77,8 +90,8 @@ const Navbar = ({
                     <svg
                       className={
                         flyer === true
-                          ? "transform rotate-180 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
-                          : "transform rotate-0 transition ease-out duration-200 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 "
+                          ? "transform rotate-180 ml-2 h-5 w-5 text-gray-400 group-hover:text-[#f8cd00] transition ease-out duration-200"
+                          : "transform rotate-0 transition ease-out duration-200 ml-2 h-5 w-5 text-[#061137] hover:text-[#f8cd00] "
                       }
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -102,7 +115,7 @@ const Navbar = ({
                     }
                   >
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                      <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                      <div className="relative grid gap-6  bg-[#f8cd00] px-5 py-6 sm:gap-8 sm:p-8">
                         <Link
                           to="/warehouses"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
@@ -124,7 +137,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             WArehouses
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -154,7 +167,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             Steel structure
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -184,7 +197,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             sports centers
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -212,7 +225,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             Showrooms
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -242,7 +255,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             restaurants
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -272,7 +285,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             prefab houses
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -302,7 +315,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             Mezzanines
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -332,7 +345,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             commercial buildings
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -362,7 +375,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             Brick roof
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -378,23 +391,12 @@ const Navbar = ({
                   </div>
                 </div>
   
-                <Link
-                  to="/services"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  Services
-                </Link>
-                <Link
-                  to="/products"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  Products
-                </Link>
+               
                 <div className="relative">
 
                   <button
                     type="button"
-                    className="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="group hover:text-[#f8cd00] lg:text-lg  mt-3 md:text-sm sm:text-xs bg-white font-sans rounded-md text-[#061137] inline-flex items-center text-base font-medium  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     onClick={() => (setFlyerTwo(!flyerTwo), setFlyer(false))}
                   >
                     <span>More</span>
@@ -402,8 +404,8 @@ const Navbar = ({
                     <svg
                       className={
                         flyerTwo === true
-                          ? "transform rotate-180 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
-                          : "ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+                          ? "transform rotate-180 ml-2 h-5 w-5 text-[#061137] group-hover:text-[#061137] transition ease-out duration-200"
+                          : "ml-2 h-5 w-5 text-[#061137]  group-hover:text-[#f8cd00]"
                       }
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -427,7 +429,7 @@ const Navbar = ({
                     }
                   >
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                      <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                      <div className="relative  grid gap-6 bg-[#f8cd00] px-5 py-6 sm:gap-8 sm:p-8">
                         <Link
                           to="/contact"
                           className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
@@ -449,7 +451,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[061137]">
                               Contact Us
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -479,7 +481,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                             Distributor
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -509,7 +511,7 @@ const Navbar = ({
                             />
                           </svg>
                           <div className="ml-4">
-                            <p className="text-base font-medium text-gray-900">
+                            <p className="text-base font-medium text-[#061137]">
                               Events
                             </p>
                             <p className="mt-1 text-sm text-gray-500">
@@ -528,15 +530,15 @@ const Navbar = ({
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <Link
                   href="#"
-                  className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+                  className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-[yellow] bg-indigo-600 hover:bg-indigo-00"
                 >
                   Download
                 </Link>
                 <Link
                   href="#"
-                  className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-700 hover:bg-indigo-600"
+                  className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-[#0cc243] hover:bg-green-700"
                 >
-                  Whatsapp
+                   Whatsapp
                 </Link>
               </div>
             </div>
